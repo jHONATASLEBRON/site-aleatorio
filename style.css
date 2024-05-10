@@ -1,0 +1,41 @@
+:root {
+    --cor-fundo: #2BB3E4;
+    --cor-acerto: #35E659;
+    --cor-err: #E61B00;
+}
+
+
+
+
+
+
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: var(--cor-fundo);
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#resposta { color: var(--cor-acerto);
+    margin-top: 10px;
+    font-weight: bold;
+}
+#resposta1 { color: var(--cor-err);
+    margin-top: 10px;
+    font-weight: bold;
+}
